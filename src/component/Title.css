@@ -1,0 +1,88 @@
+.logo{
+    position: absolute;
+    width: 198.48px;
+    height: 187.11px;
+    left: 133.78px;
+    top: 76.66px;
+}
+
+.upline{
+    position: absolute;
+    width: 756.22px;
+    height: 0px;
+    left: 332.27px;
+    top: 145.19px;
+
+    border: 3px solid #000000;
+
+}
+
+.downline{
+    position: absolute;
+    width: 1186.19px;
+    height: 0px;
+    left: 145.56px;
+    top: 291.18px;
+
+    border: 3px solid #000000;
+}
+
+.date{
+
+    position: absolute;
+    width: 185px;
+    height: 52px;
+    left: 1119.41px;
+    top: 119.19px;
+
+    font-family: 'Belgiano Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.title{
+
+    position: absolute;
+    width: 773px;
+    height: 123px;
+    left: 362.4px;
+    top: 159.19px;
+
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 123px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.copyright{
+
+    position: absolute;
+    width: 115px;
+    height: 57.32px;
+    left: 1154.41px;
+    top: 189.52px;
+
+    font-family: 'Belgiano Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
