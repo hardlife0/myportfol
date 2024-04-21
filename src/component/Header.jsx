@@ -2,20 +2,20 @@ import React, { useState } from "react";
 
 const headerNav = [
     {
-        title: "intro",
-        url: "#intro"
+        title: "홈",
+        url: "#home"
     },
     {
-        title: "skill",
-        url: "#skill"
+        title: "견적서받기",
+        url: "#get"
     },
     {
-        title: "site",
-        url: "#site"
+        title: "회사소개",
+        url: "#about"
     },
     {
-        title: "portfolio",
-        url: "#port"
+        title: "사진",
+        url: "#photo"
     },
     {
         title: "contact",
@@ -34,7 +34,7 @@ const Header = () => {
         <header id="header" role="banner">
             <div className="header__inner">
                 <div className="header__logo">
-                    <a href="/">portfolio<em>react.js</em></a>
+                    <a href="/">포스트디엠<em>postdm</em></a>
                 </div>
                 <nav className={`header__nav ${show ? "show" : ""}`} role="navigation" aria-label="메인 메뉴">
                     <ul>
