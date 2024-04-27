@@ -29,9 +29,9 @@
     }
     .intro__text {
         width: 100%;
-        height: 40vh;
-        background-color: var(--black);
-        color: var(--white);
+        height: 50vh;
+        background-color: var(--white);
+        color: var(--black);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -54,18 +54,36 @@
                 font-size: 24px;
             }
         }
+        .inside_text{
+            position: absolute;
+            left: 50%;
+            top: 90%;
+            transform: translate(-50%, -50%);
+            width: 50vh;
+            height: 50vh;
+            border-radius: 0%;
+            overflow: hidden;
+            filter: grayscale(100%);
+            transition: all 0.5s;
+            opacity: 0;
+    
+            @media (max-width: 320px){ 
+                width: 20vh;
+                height: 20vh;
+            }
+        }
         .img {
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            width: 30vh;
-            height: 30vh;
+            width: 100%;
+            height: 45vh;
             border-radius: 0%;
             overflow: hidden;
             filter: grayscale(100%);
-            transition: all 0.3s;
-            opacity: 0; // 이미지를 기본적으로 숨깁니다.
+            transition: all 0.5s;
+            opacity: 0;
     
             @media (max-width: 320px){ 
                 width: 20vh;
@@ -78,74 +96,12 @@
         }
         &:hover .img {
             filter: grayscale(0);
-            opacity: 1; // 마우스 오버 시 이미지가 보이게 합니다.
-        }
-    }
-    .intro__lines {
-        width: 100%;
-
-        .line {
-            display: block;
-            width: 100%;
-            height: 1px;
-            background-color: var(--black);
-            margin-bottom: 0.5vw;
-
-            &:nth-child(1){
-                height: 1px;
-            }
-            &:nth-child(2){
-                height: 2px;
-            }
-            &:nth-child(3){
-                height: 5px;
-            }
-            &:nth-child(4){
-                height: 9px;
-            }
-            &:nth-child(5){
-                height: 13px;
-            }
-            &:nth-child(6){
-                height: 17px;
-            }
-            &:nth-child(7){
-                height: 25px;
-            }
+            opacity: 1;
         }
 
-        &.bottom {
-            .line {
-                margin-top: 0.5vw;
-                margin-bottom: 0;
-                display: none;
-
-                @media (max-width: 800px){ 
-                    display: block;
-                }
-
-                &:nth-child(1){
-                    height: 25px;
-                }
-                &:nth-child(2){
-                    height: 17px;
-                }
-                &:nth-child(3){
-                    height: 13px;
-                }
-                &:nth-child(4){
-                    height: 9px;
-                }
-                &:nth-child(5){
-                    height: 5px;
-                }
-                &:nth-child(6){
-                    height: 2px;
-                }
-                &:nth-child(7){
-                    height: 1px;
-                }
-            }
+        &:hover .inside_text {
+            filter: grayscale(0);
+            opacity: 1;
         }
     }
 }
