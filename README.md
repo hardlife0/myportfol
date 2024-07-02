@@ -10,6 +10,4 @@
 ## 👀 역할분담
 ## 💻 개발환경
 ## ⚙️ 기술 스택
-![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
-![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![](뱃지링크)
