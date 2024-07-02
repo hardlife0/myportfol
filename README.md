@@ -10,4 +10,4 @@
 ## 👀 역할분담
 ## 💻 개발환경
 ## ⚙️ 기술 스택
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
+![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
